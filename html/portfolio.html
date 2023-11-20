@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="https://images.ctfassets.net/0d3i1kfsuaq3/6VEB0kGTUBUz05Z7lxsMvc/34e5beb2c74dd7961f2d93725d051d54/Phenom_Updated_e-05.png">
+    <link rel="stylesheet" href="../navbar.css">
+    <style>
+        a:hover{
+            color: rgb(99, 99, 111);
+        }
+        a{
+            font-size: 20px;
+            color:aliceblue;
+            font-style: none;
+        }
+        ul{
+            font-size:20px;
+            color: white;
+
+        }   
+        .cards{
+            width:48%;
+            height: 300px;
+            border-radius: 20px;
+            border: black 2px solid;
+            box-shadow: 10px 10px 10px black;
+        }     
+        .beachContent{
+            text-align:center;
+            letter-spacing: 1px;
+            color:rgb(181, 215, 245)
+
+        }
+        #beachContent{
+            text-indent: 10px;
+        }
+        #des{
+            text-align: center;
+            text-decoration: underline;
+            color: white;
+        }
+        #para{
+            text-align: left;
+            margin:30px;
+            text-indent: 60px;
+            line-height: 28px;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+     <!-- Header -->
+     <div class = "navContainer">
+        <div class="navImage"><img src="https://images.ctfassets.net/0d3i1kfsuaq3/6VEB0kGTUBUz05Z7lxsMvc/34e5beb2c74dd7961f2d93725d051d54/Phenom_Updated_e-05.png" style="height:100px; margin-top: 0px; margin-left: 0px;" alt=""></div>
+        <div class="navMainList">
+            <ul class="navUl"> 
+                <li><a class="navAnchor" href="../index.html">Home</a></li>
+                <li><a class="navAnchor" href="./aboutus.html">About Us</a></li>
+                <li><a class="navAnchor" href="./contact.html">Contact</a></li>
+                <li><a class="navAnchor" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="navAnchor" href="./features.html">Features</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- body -->
+    <div class="bodyMainDiv" style=" width:100% ;  height: 1500px;background-image: linear-gradient(rgb(78, 24, 24),rgb(26, 26, 82)) ; position:relative">
+        <div class="vidMainDiv">
+           <div class="vidDiv">
+            <video src="https://vod-progressive.akamaized.net/exp=1698765294~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2851%2F11%2F289258217%2F1094756917.mp4~hmac=d66991773ccdb8a5c9cdc49aa6704fccfb3ace27d56c16e75c387ca6d6960261/vimeo-prod-skyfire-std-us/01/2851/11/289258217/1094756917.mp4" style="width:100%;opacity: 0.5; z-index: -5" controls autoplay muted loop alt="beach video"></video>
+            <h1 id="content" >vizag is a beautiful city</h1>
+            </div>
+        </div>
+        <br>
+        <div style="width:90% ; height: 700px;background-color: transparent; position:absolute; left:5% ;margin-top: 470px;">
+            <div style="width:100%; height:400px ;background-color: transparent;border-radius:50px; overflow: hidden; position:relative">
+             <h1 id="des">Description</h1>
+             <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, explicabo odit in quibusdam officiis maiores dolorem ipsa labore at excepturi debitis enim consequatur dolore alias, repellendus architecto tenetur harum natus magnam culpa fugiat ad nesciunt. Odit enim cumque nostrum magnam voluptates harum minima, ea minus, fugit qui, quod fuga eveniet vel est nam veniam aliquam! Expedita tempore excepturi asperiores deserunt. Aperiam, iusto nihil! Rem, doloribus? Voluptatibus repellendus sed sequi recusandae in earum harum ea autem cumque! Magni possimus fugiat placeat, quidem mollitia officiis aspernatur temporibus sapiente harum earum quis facere beatae exercitationem tempora totam quo. Dolor repellat dolorum laudantium, vero perferendis sit facilis laborum id animi molestiae eos, omnis deserunt deleniti rem dolore eligendi non molestias. Magni voluptatem voluptates quas cupiditate ea? Doloremque dolorem magni adipisci natus omnis voluptatum perferendis fugit minima corporis quibusdam, repellendus distinctio recusandae fugiat delectus quas provident praesentium nam officiis commodi architecto veritatis expedita iusto accusamus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo corrupti quam, reprehenderit earum, consequuntur ipsa cum magnam quae unde facere, consequatur delectus! Error, possimus. Placeat similique et fugit atque eligendi, minima, exercitationem aliquid unde ea ipsam nihil asperiores sequi aspernatur facere qui! Reiciendis error aperiam animi quam excepturi repellat officiis!</p>
+             </div>
+         </div>
+        <div style="width:90% ; height: 300px;background-color:transparent ;margin-top: 940px;margin-left:60px; display: flex; justify-content: space-between;">
+            <div class="cards">
+                <h1 class="beachContent">Beach</h1>
+                <p  class="beachContent" id="beachContent">A beach is a narrow strip of land separating a body of water from inland areas. Beaches are usually made of sand, tiny grains of rocks and minerals that have been worn down by constant pounding by wind and waves. This beach, in Pebble Beach, California, has both sandy and rocky features.</p>
+            </div>
+            <div class="cards" id="imag"style="background-image: url(https://t3.ftcdn.net/jpg/03/82/24/44/360_F_382244401_FNIivSDbE7ojw5sT70WYVgmFsw2R7DHD.jpg)"></div>
+            
+         </div>
+    </div>
+    <!-- footer -->
+    <div style="background-color: black; width:100%; height:500px; position:relative">
+        <div style=" width:80%; height:400px; position:absolute; left:10%">
+            <img src="https://cdn.phenompeople.com/CareerConnectResources/PMCNUS/images/1676038372574_Phenom_Lockup_RGB_White-1651607259674.png" alt=" phenom" style="width:300px; margin-top:70px; margin-left:40px">
+            <div style="display: flex;">
+                <div style="width:25%;">
+                    <ul style="list-style: none ;margin-top:40px;">login
+                        <li style="padding-top: 15px;">Employee Experiance</li>
+                        <li style="padding-top: 15px;">Candidate  Experiance</li>
+                        <li style="padding-top: 15px;">Manager  Experiance</li>
+                        <li style="padding-top: 15px;">Hr  Experiance</li>
+                    </ul>
+                </div>
+                <div style="width:25%;">
+                    <ul style="list-style: none ;margin-top:40px;">About Us
+                        <li style="padding-top: 15px;">Employee Experiance</li>
+                        <li style="padding-top: 15px;">Candidate  Experiance</li>
+                        <li style="padding-top: 15px;">Manager  Experiance</li>
+                        <li style="padding-top: 15px;">Hr  Experiance</li>
+                    </ul>
+                </div>
+                <div style="width:25%;">
+                    <ul style="list-style: none ;margin-top:40px;">More
+                        <li style="padding-top: 15px;">Employee Experiance</li>
+                        <li style="padding-top: 15px;">Candidate  Experiance</li>
+                        <li style="padding-top: 15px;">Manager  Experiance</li>
+                        <li style="padding-top: 15px;">Hr  Experiance</li>
+                    </ul>
+                </div>
+                <div style="width:25%;">
+                    <ul style="list-style: none ;margin-top:40px;">Contact Us
+                        <li style="padding-top: 15px;">Employee Experiance</li>
+                        <li style="padding-top: 15px;">Candidate  Experiance</li>
+                        <li style="padding-top: 15px;">Manager  Experiance</li>
+                        <li style="padding-top: 15px;">Hr  Experiance</li>
+                    </ul>
+                </div>
+            </div>
+            <pre style="color:azure; padding-left:300px">@Helping a billion people find the right job.</pre>
+        </div>
+    </div>
+    
+</body>
+</html>
